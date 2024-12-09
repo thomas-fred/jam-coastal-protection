@@ -1,0 +1,26 @@
+# to install this environment:
+# micromamba create -f environment.yml -y
+name: coastal-protection
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - black               # formatter
+  - flake8              # linter
+  - geopandas           # geometry in tables
+  - ipykernel           # notebook support
+  - jupyter             # notebook support
+  - matplotlib          # plotting
+  - nb_conda_kernels    # notebook support
+  - numba               # just-in-time compilation
+  - numpy               # n-dim arrays
+  - rasterio            # raster handling
+  - pathos              # multiprocessing
+  - pandas              # tabular data
+  - py-spy              # profiling
+  - pyarrow             # parquet support
+  - pytest              # testing
+  - scikit-learn        # ML algorithms
+  - tqdm                # progress bars
+  - xarray              # n-dim labelled data
