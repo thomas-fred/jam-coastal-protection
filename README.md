@@ -1,11 +1,13 @@
 ## Installation
 
-micromamba create -f environment.yml -y
+`micromamba create -f environment.yml -y`
 
 ## Usage
 
+```
 micromamba activate coastal-protection
 jupyter notebook
+```
 
 ### voronoi.ipynb
 
